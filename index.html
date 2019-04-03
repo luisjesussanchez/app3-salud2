@@ -1,0 +1,285 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<title>Dia mundial de la salud</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app3tema.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--<script src="js/acciones.js"></script>-->
+<script src="phonegap.js"></script><!--necesario-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/salud2.jpg','imagenes/salud4.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia mundial de la salud</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Infografia</h1>
+<div>
+<p>Informacion sobre el Dia mundial de la salud</p>
+<br>
+<img src="imagenes/infografia.png" width="100%" height="203%" alt="logo">
+<div>
+  <p>Campaña del dia mundial de la salud.
+La Organización Mundial de la Salud se fundó sobre la base del principio de que todas las personas deberían poder hacer efectivo su derecho al grado máximo de salud que se pueda lograr.</p>
+<br>
+Por lo tanto, la “Salud para todos” ha sido la visión que nos ha guiado a lo largo de más de siete decenios. También es el motor de la actual iniciativa impulsada a nivel de toda la Organización de ayudar a los países a avanzar hacia la cobertura sanitaria universal (CSU).</p>
+<br>
+<pre>“Nadie debería tener que elegir entre la muerte y las dificultades económicas. Nadie debería tener que elegir entre comprar medicamentos y comprar alimentos”.
+-Dr. Tedros Adhanom Ghebreyesus, Director General de la OMS</pre>
+<br>
+
+Durante esta aplicacion, se abarcaran los siguentes temas:<br>
+
+<ul>
+<li>¿Cuando se celebra y por que? </li>
+<li>¿Que se trata de conseguir con la campaña?</li>
+<li>¿Que hace la OMS?</li>
+<li>Cobertura sanitaria universal</li>
+<li>¿Que es lo que no incluye la Cobertura sanitaria universal?</li>
+</ul>
+</p>
+<div>
+<img src="imagenes/salud10.jpg" width="400" height="200" alt="logo">
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> ¿Cuando se celebra y por que? </h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Que se trata de conseguir con la campaña?</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> ¿Que hace la OMS?</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Cobertura sanitaria universal</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Que es lo que no incluye la Cobertura sanitaria universal?</h2>
+
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="100" height="75" alt="pie">
+</div>
+<div>
+<h4>Aplicacion 3 Esp Programacion</h4>
+<h4>Luis Jesus Sanchez Perez</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> ¿Cuando se celebra y por que? </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>En 1948, la Primera Asamblea Mundial de la Salud propuso que se estableciera un “Día Mundial de la Salud” para conmemorar la fundación de la OMS. Desde 1950, el Día Mundial de la Salud se viene celebrando cada 7 de abril y desde entonces, se elige para su conmemoración un tema que pone de relieve una esfera de interés prioritario para la Organización Mundial de la Salud. El tema para este 2018 es la iniciativa que, desde 2015, los líderes mundiales contrajeron como compromiso social cuando se acordaron los Objetivos de Desarrollo Sostenible (ODS); se trata de la consecución y mantenimiento de la Cobertura Sanitaria Universal (CSU); la cual establece que todas las personas y comunidades reciban los servicios de salud que precisan sin sufrir por ello dificultades económicas.</p>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus1','','imagenes/salud2.jpg',1)"><img src="imagenes/salud1.jpg" width="546" height="389" id="sus1"></a> 
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="100" height="75" alt="pie">
+</div>
+<h4>Aplicacion 3 Esp Programacion</h4>
+<h4>Luis Jesus Sanchez Perez</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> ¿Que se trata de conseguir con la campaña? </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>El Día Mundial de la Salud pondrá en el candelero la necesidad de la CSU y los beneficios que puede aportar. La OMS y sus asociados intercambiarán ejemplos de medidas que pueden adoptar para lograrla mediante una serie de actos y conversaciones que se celebrarán en distintos niveles.</p>
+
+<p>A lo largo de 2018, queremos inspirar, motivar y guiar a las partes interesadas en la CSU para que contraigan compromisos en esta esfera:</p>
+
+<p>Inspirar— poniendo de relieve el poder que tienen los responsables de la formulación de políticas para transformar la salud de su nación, caracterizándolo como un desafío estimulante y ambicioso, e invitándoles a formar parte del cambio.</p>
+<p>Motivar — intercambiando ejemplos de cómo los países ya están avanzando hacia la CSU y alentando a otros países a encontrar su propio camino.</p>
+<p>Guiar— proporcionando herramientas para un diálogo estructurado en materia de políticas sobre la manera de promover la CSU en el ámbito nacional o respaldando estos esfuerzos en otros países (por ejemplo, ampliando la cobertura de los servicios, mejorando su calidad y reduciendo los pagos sufragados por los usuarios de su propio bosillo).</p>
+<div>
+<img src="imagenes/salud5.jpg" width="100" height="75" alt="pie">
+</div>
+</div>
+<a href="https://www.who.int/campaigns/world-health-day/2018/campaign-essentials/es/" target="_self"> Ir a pagina oficial de la OMS </a>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="100" height="75" alt="pie">
+</div>
+<h4>Aplicacion 3 Esp Programacion</h4>
+<h4>Luis Jesus Sanchez Perez</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> ¿Que hace la OMS? </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>La Organización Mundial de la Salud (OMS, en inglés WHO - World Health Organization) es un organismo especializado de las Naciones Unidas fundado en 1948, cuyo objetivo es alcanzar para todos los pueblos el máximo grado de salud, definida en su Constitución como un estado de completo bienestar físico, mental y social, y no solamente como la ausencia de afecciones o enfermedades.</p>
+ 
+<p>La OMS presta especial atención a la lucha contra los problemas sanitarios más importantes, sobre todo en los países en desarrollo y en contextos de crisis.</p>
+
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus2','','imagenes/salud4.jpg',1)"><img src="imagenes/salud10.jpg" width="483" height="378" id="sus2"></a> </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="100" height="75" alt="pie">
+</div>
+<h4>Aplicacion 3 Esp Programacion</h4>
+<h4>Luis Jesus Sanchez Perez</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Cobertura sanitaria universal </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>La cobertura sanitaria universal (CSU) implica que todas las personas y comunidades reciban los servicios de salud que necesitan sin tener que pasar penurias financieras para pagarlos. Abarca toda la gama de servicios de salud esenciales de calidad, desde la promoción de la salud hasta la prevención, el tratamiento, la rehabilitación y los cuidados paliativos.</p>
+
+<p>La CSU permite a todos acceder a servicios que atienden las causas más importantes de las enfermedades y la muerte, y asegura que la calidad de esos servicios sea suficientemente buena para mejorar la salud de las personas que los reciben.</p>
+<div>
+<img src="imagenes/salud7.jpg" width="100" height="75" alt="pie">
+</div>
+</div>
+<a href="https://www.who.int/es/news-room/fact-sheets/detail/universal-health-coverage-(uhc)" target="_self"> Ir a pagina oficial de la CSU </a>
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="100" height="75" alt="pie">
+</div>
+<h4>Aplicacion 3 Esp Programacion</h4>
+<h4>Luis Jesus Sanchez Perez</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> ¿Que es lo que no incluye la Cobertura sanitaria universal? </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>La CSU no implica la cobertura gratuita de todas las intervenciones sanitarias posibles, independientemente de su costo, ya que ningún país puede permitirse ofrecer todos los servicios gratuitamente de forma sostenible.</p>
+<p>La CSU no se refiere únicamente a la financiación de la salud: abarca todos los componentes del sistema de salud, a saber, los sistemas de prestación de servicios de salud, el personal sanitario, las instalaciones sanitarias o las redes de comunicación, las tecnologías sanitarias, los sistemas de información, los mecanismos de garantía de la calidad, la gobernanza y la legislación.</p>
+<p>La CSU no solo tiene por finalidad asegurar un conjunto de servicios de salud mínimos, sino también lograr la ampliación progresiva de la cobertura de los servicios de salud y de la protección financiera, conforme se disponga de más recursos.</p>
+<p>La CSU no solo engloba los servicios de tratamiento específicos, sino también incluye los servicios a la población como las campañas de salud pública, la adición de flúor al agua, el control de los lugares de reproducción de los mosquitos, entre otros.</p>
+<p>La CSU comprende mucho más que solo la salud. Adoptar medidas para alcanzar la cobertura sanitaria universal equivale a adoptar medidas para lograr la equidad, las prioridades en materia de desarrollo y la inclusión y cohesión sociales.</p>
+
+</div>
+<div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/salud3.jpg" alt="salud3" title="salud3" id="wows1_0"/></li>
+		<li><img src="data1/images/salud4.jpg" alt="salud4" title="salud4" id="wows1_1"/></li>
+		<li><img src="data1/images/salud5.jpg" alt="salud5" title="salud5" id="wows1_2"/></li>
+		<li><img src="data1/images/salud6.jpg" alt="salud6" title="salud6" id="wows1_3"/></li>
+		<li><img src="data1/images/salud7.jpg" alt="salud7" title="salud7" id="wows1_4"/></li>
+		<li><img src="data1/images/salud8.jpg" alt="salud8" title="salud8" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/salud9.jpg" alt="javascript slider" title="salud9" id="wows1_6"/></a></li>
+		<li><img src="data1/images/salud10.jpg" alt="salud10" title="salud10" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="salud3"><span><img src="data1/tooltips/salud3.jpg" alt="salud3"/>1</span></a>
+		<a href="#" title="salud4"><span><img src="data1/tooltips/salud4.jpg" alt="salud4"/>2</span></a>
+		<a href="#" title="salud5"><span><img src="data1/tooltips/salud5.jpg" alt="salud5"/>3</span></a>
+		<a href="#" title="salud6"><span><img src="data1/tooltips/salud6.jpg" alt="salud6"/>4</span></a>
+		<a href="#" title="salud7"><span><img src="data1/tooltips/salud7.jpg" alt="salud7"/>5</span></a>
+		<a href="#" title="salud8"><span><img src="data1/tooltips/salud8.jpg" alt="salud8"/>6</span></a>
+		<a href="#" title="salud9"><span><img src="data1/tooltips/salud9.jpg" alt="salud9"/>7</span></a>
+		<a href="#" title="salud10"><span><img src="data1/tooltips/salud10.jpg" alt="salud10"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="100" height="75" alt="pie">
+</div>
+<h4>Aplicacion 3 Esp Programacion</h4>
+<h4>Luis Jesus Sanchez Perez</h4>
+</div>
+</div>
+
+</body>
+</html>
